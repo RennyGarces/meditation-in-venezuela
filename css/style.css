@@ -1,0 +1,146 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  border: 7px solid rgba(108, 108, 108, 0.1);
+  color: #454545;
+  background-color: rgb(249, 240, 240);
+  font-family: sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 100px;
+}
+/*header*/
+.main-header {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.title {
+  color: #090909;
+  margin-bottom: 10px;
+}
+
+.font-light {
+  color: rgb(92, 90, 90);
+}
+.posted {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Renny-Photo {
+  border-radius: 50%;
+  width: 65px;
+  height: 70px;
+}
+
+.renny-photo-name {
+  display: flex;
+  gap: 20px;
+}
+
+.Renny {
+  color: #2a2a1b;
+  font-size: 13px;
+  font: italic 1.2em "Fira Sans", serif;
+  font-weight: bold;
+}
+
+.icons-links {
+  gap: 8px;
+}
+
+.mini-img {
+  width: 25px;
+  height: 25px;
+}
+a {
+  text-decoration: none;
+  color: #2a2a1b;
+  font-size: 13px;
+
+  font-weight: bold;
+}
+
+.mini-p {
+  color: rgb(133, 130, 130);
+  font-size: 10px;
+  top: 80px;
+  left: 55px;
+}
+
+/*img headr*/
+.img-header {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 1%;
+}
+.container-flex {
+  gap: 5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+article {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 60%;
+  border-bottom: 10px solid rgba(207, 197, 197, 0.1);
+}
+p {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+aside {
+  margin-top: 55px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  background-color: rgba(211, 204, 204, 0.2);
+
+  border-top: 2px solid rgb(97, 96, 96, 0.2);
+
+  align-self: ;
+}
+
+li {
+  list-style: none;
+  font-size: 10px;
+  line-height: 2;
+}
+ul {
+  padding-bottom: 20px;
+  border-bottom: 4px solid rgb(97, 96, 96, 0.3);
+}
+
+.img-wikipedia {
+  height: 55px;
+  width: 50px;
+  border-radius: 10%;
+}
+.images-references {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.img-reference {
+  margin-top: 100px;
+  border: 5px solid black;
+  border-radius: 5%;
+}
+.return {
+  margin: 0;
+}
+footer {
+  margin-top: 10px;
+  font-size: 11px;
+}
