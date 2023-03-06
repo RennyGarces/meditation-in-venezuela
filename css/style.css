@@ -117,8 +117,7 @@ aside {
   flex-direction: column;
   border-top: 3px solid rgba(0, 0, 0, 0.263);
   border-bottom: 2px solid rgba(0, 0, 0, 0.263);
-  background-color: rgb(255, 255, 255);
-
+  background-color: rgb(231, 224, 224);
   padding: 30px;
 }
 
